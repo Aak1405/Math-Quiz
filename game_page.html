@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Math Quiz</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script type="text/javascript"
+		src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZqtwlvZ9wi6VnrGtY7mW_W3mSlq_Ji0BPNkhv8kJ_EjlcSUukIHwfvWqGHJIvJHURTC0L6QE3rvRtQGDANwcYeuNqK0w14m6zHrBaQUwVnAuHeCYHVOa9hWIDkDpcywTOuYJ2gN3aNm3dVsXM5sLpRIcdOnVn_fpdcPKQW7LRyYY_OjGP8BWWLelqT3PKLV2p1WL1cyL7hJBs5jIBXyqzqmGOm03uKKrcS8NXs9yZJN5u2twT-UfGUgt2okg_lkb13o3-NFS6vvsc6GSVrRAU6gour6w9t3Of18821Vm3sB2PqLaN5tcHcQnf10lsjUiTk_otd9laeG9jikxqmYHNUkC2Vwca9u3c7ExAkyiExsfCLlk944vR5CpNEju7skEjp6m6wl286j7MoJo9GR8bCfjc_8vNS4oZmT8qQIV5XXKlfptHZLhMTh87EBaRZiGJwhmzsC3lEHJ5_Zly1Wn4ClX1aWp90iEWBEF97x9FHN11GaDfi7qGOKZrYpH4wzGRI9pQt7a8_IQ0WmM37Of3koDyzSJuAW9JoGaiGQqdQ1TvS0vfzSXr1m7NX3X7OnGIZYA8AuqVxBHicsimHV6PqlT51w6iUv5Ls77H_MxbEeFv54Gf6E-dY0dLXLbj7zPduEhPfH1Bdfouz1tLxGB2PltVkG3Ufx5h1ZGODQD5xZjyNR9IxU1vj1XDgequILsZADuHe8xAwAhjZzDCjiszkvHjatmbu3QFdL9Eu8qvu9dRpPqYdwkmCtKEG5ihoQsETqR9eIZSUMmOO-ly_Kg6vXHtM5WT8GDqocOeoeqdLxdW7Eww7Mh3uhNiu8L63zqT_qBUgGpXOhn1qQ8UamyyA4OcLgiJ9FK9xJaewAG1lxBwR0gdgzX8OPCIMVIF20p7L8URWWymF3moUx6Fi6q5yXxwcnKKkSJAODWsRD11zREUjdza1jtxa5xha6FFUMpkw9i24VWl0I6Img2RtmCTd1E9ScHG5l8Tdywq1pZUew3R5JWruJwVOwjYDwlTogjLm8DGp3bcWbnZfR8MsGEz5tI7h2NPsc-AAy3-fTAuOOArLmeOSe4gvIcImIEJN9XVZQUyIZGvHr8B9m3SS0BHGC8_b5oUFXmEyjR2W9vbHT7jm3SujNImEQh7_4nOh-So6xoLhgtA5bI8Ib1yvAJZmJEXarTIDosJd_g3v9mMQT_gHFiYLtoLCJbdNJrpwB61NCb-WZS59G-MfcfvXw9E6NMpypAeX8A1i5vvZ_xv_gVeFW0mbHeFNkzl4SCMHfaqwJ2lY6cZYGIhrpjAxfkLFSj1ux7ub0QOFursZxNbNWD7sVIRN3KA-kk-Qxj4MZlvkmysC9-E4h_mHQatKGPig"
+		charset="UTF-8"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+
+<body>
+	<h4 id="player1_name"></h4> <span id="player1_score"></span>
+	<br>
+	<h4 id="player2_name"></h4> <span id="player2_score"></span>
+
+	<div class="container">
+		<center>
+			<h2 style="color: white;">Math Quiz</h2>
+			<h3 id="player_question"></h3>
+			<h3 id="player_answer"></h3>
+			<div id="output" class="col-lg-6"> </div>
+
+			<br>
+			<br>
+			<h4>Number 1</h4>
+
+			
+			<input type="text" id="number1" class="form-control" placeholder="Number 1">
+			<br>
+			<h4>Number 2</h4>
+
+			
+			<input type="text" id="number2" class="form-control" placeholder="Number 2">
+
+			<br>
+			<button onclick="send()" class="btn btn-success" style="width:30%;">Send</button>
+
+		</center>
+
+	</div>
+
+	<script src="game_page.js"></script>
+</body>
+
+</html>
